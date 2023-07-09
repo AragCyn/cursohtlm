@@ -173,7 +173,7 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background: url("../img/intro-bg\ -\ copia.png") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -196,7 +196,7 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-  color: #74b5fc;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -223,7 +223,7 @@ h6 {
 #intro .intro-info .btn-get-started:hover {
   background: none;
   border-color: #fff;
-  color: #fff;
+  color: #ffffff;
 }
 
 #intro .intro-info .btn-services {
@@ -263,7 +263,7 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: #000000;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -274,7 +274,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #5c0859;
   text-decoration: none;
 }
 
@@ -516,7 +516,7 @@ h6 {
 
 #about .about-container .icon-box .icon {
   float: left;
-  background: #fff;
+  background: #ffffff;
   width: 64px;
   height: 64px;
   display: -webkit-box;
@@ -926,7 +926,7 @@ h6 {
 #team {
   background: #fff;
   padding: 60px 0;
-  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 12px 0px rgba(168, 18, 146, 0.1);
 }
 
 #team .member {
@@ -945,7 +945,7 @@ h6 {
   display: flex;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-  -ms-flex-pack: center;
+  -ms-flex-pack:center;
   justify-content: center;
   -webkit-box-align: center;
   -webkit-align-items: center;
