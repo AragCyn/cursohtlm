@@ -12,18 +12,18 @@
 body {
   background: #fff;
   color: #444;
-  font-family: 'Encode Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
-  color: #007bff       ;
+  color: #007bff;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color: #0b6bd3     ;
+  color: #0b6bd3;
   outline: none;
   text-decoration: none;
 }
@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Encode Sans', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -50,9 +50,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background:  #1E1E1E
-
-  ;
+  background: #007bff;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -155,7 +153,6 @@ h6 {
 #header .logo h1 a,
 #header .logo h1 a:hover {
   color: #00366f;
-;
   text-decoration: none;
 }
 
@@ -176,7 +173,7 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg\ -\ copia.png") center bottom no-repeat;
+  background: url("../img/intro-bg.png") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -199,13 +196,13 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-  color: #fff;
+  color: #74b5fc;
   text-decoration: underline;
 }
 
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
-  font-family: 'Encode Sans', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -246,7 +243,7 @@ h6 {
 /* Desktop Navigation */
 
 .main-nav {
-/* Drop Down */
+  /* Drop Down */
   /* Deep Drop Down */
 }
 
@@ -266,12 +263,11 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color:  #1E1E1E
-  ;
+  color: #004289;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: 'Encode Sans', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
 }
 
@@ -629,15 +625,11 @@ h6 {
 }
 
 #services .title a {
-  color:    #6E2F93
-
-  ;
+  color: #111;
 }
 
 #services .box:hover .title a {
-  color:   #E71964
-
-  ;
+  color: #007bff;
 }
 
 #services .description {
@@ -647,6 +639,80 @@ h6 {
   margin-bottom: 0;
 }
 
+#why-us {
+  padding: 60px 0;
+  background: #004a99;
+}
+
+#why-us .section-header h3,
+#why-us .section-header p {
+  color: #fff;
+}
+
+#why-us .card {
+  background: #00458f;
+  border-color: #00458f;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+#why-us .card:hover {
+  background: #003b7a;
+  border-color: #003b7a;
+}
+
+#why-us .card i {
+  font-size: 48px;
+  padding-top: 15px;
+  color: #bfddfe;
+}
+
+#why-us .card h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#why-us .card p {
+  font-size: 15px;
+  color: #d8eafe;
+}
+
+#why-us .card .readmore {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #00458f solid 2px;
+}
+
+#why-us .card .readmore:hover {
+  border-bottom: #fff solid 2px;
+}
+
+#why-us .counters {
+  padding-top: 40px;
+}
+
+#why-us .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #fff;
+}
+
+#why-us .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #cce5ff;
+}
 
 /* Portfolio Section
 --------------------------------*/
@@ -825,8 +891,7 @@ h6 {
 
 #testimonials .testimonial-item h4 {
   font-size: 14px;
-  color:   #34C0DF
-  ;
+  color: #999;
   margin: 0 0 15px 0;
   margin-left: 140px;
 }
@@ -1004,7 +1069,7 @@ h6 {
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
-  font-family: 'Encode Sans', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1014,7 +1079,7 @@ h6 {
 #contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: 'Encode Sans', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #888;
 }
 
@@ -1102,8 +1167,7 @@ h6 {
 }
 
 #contact .form button[type="submit"] {
-  background:   #34C0DF
-  ;
+  background: #007bff;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1112,9 +1176,7 @@ h6 {
 }
 
 #contact .form button[type="submit"]:hover {
-  background:  #f1a51fff
-
-  ;
+  background: #0067d5;
   cursor: pointer;
 }
 
@@ -1123,15 +1185,14 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #6E2F93
-  ;
+  background: #00428a;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #990075;
+  background: #004a99;
   padding: 60px 0 30px 0;
 }
 
@@ -1144,7 +1205,7 @@ h6 {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: 'Encode Sans', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   font-weight: 400;
   letter-spacing: 3px;
@@ -1155,15 +1216,14 @@ h6 {
   font-size: 13px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: 'Encode Sans', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #ecf5ff;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background:  #f1a51fff
-  ;
+  background: #007bff;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1176,8 +1236,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #34C0DF
- ;
+  background: #0067d5;
   color: #fff;
 }
 
@@ -1213,8 +1272,7 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color:  #34C0DF
-  ;
+  color: #74b5fc;
 }
 
 #footer .footer-top .footer-contact {
@@ -1236,10 +1294,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #f1a51fff
-
-
-  ;
+  background: #007bff;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -1250,8 +1305,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background:  #34C0DF
-  ;
+  background: #0062cc;
 }
 
 #footer .copyright {
